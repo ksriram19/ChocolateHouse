@@ -24,9 +24,9 @@ The **frontend** provides a user interface for interacting with the backend, whi
 
 ## Technologies Used
 
-- **Backend**: FastAPI, Python, SQLLite
+- **Backend**: FastAPI, Python, SQLite
 - **Frontend**: HTML, CSS, JavaScript
-- **Database**: SQLLite
+- **Database**: SQLite
 - **API Documentation**: FastAPI Swagger
 
 ---
@@ -37,7 +37,7 @@ The **frontend** provides a user interface for interacting with the backend, whi
 ChocHouseProject/
 ├── backend/
 │   ├── main.py               # FastAPI application with routes
-│   ├── database.py           # Database connection setup (MySQL)
+│   ├── database.py           # Database connection setup (SQLite)
 │   ├── models.py             # Optional: ORM models for entities
 │   └── requirements.txt      # List of backend dependencies
 │
@@ -72,12 +72,7 @@ ChocHouseProject/
    pip install -r requirements.txt
    ```
 
-3. **Set up MySQL**:
-   - Make sure you have a MySQL server running.
-   - Create a MySQL database named `chochouse`.
-   - Update `database.py` with your MySQL credentials (username and password).
-
-4. **Enable CORS in FastAPI (main.py)**:
+3. **Enable CORS in FastAPI (main.py)**:
    To allow the frontend to access the backend, add the following to `main.py`:
    ```python
    from fastapi.middleware.cors import CORSMiddleware
@@ -182,7 +177,7 @@ Additional routes are available for subcategories, customers, allergies, and ing
 
 - Open the Command Palette and run the Dev Containers: Add Dev Container Configuration Files
 - Select Python 3
-- Select SQLLite as an additional feature to be installed, press OK, and then select Keep Defaults.
+- Select SQLite as an additional feature to be installed, press OK, and then select Keep Defaults.
 - Open the devcontainer.json file.
 - Make necessary changes
 
