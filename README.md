@@ -24,9 +24,9 @@ The **frontend** provides a user interface for interacting with the backend, whi
 
 ## Technologies Used
 
-- **Backend**: FastAPI, Python, MySQL
+- **Backend**: FastAPI, Python, SQLLite
 - **Frontend**: HTML, CSS, JavaScript
-- **Database**: MySQL
+- **Database**: SQLLite
 - **API Documentation**: FastAPI Swagger
 
 ---
@@ -47,8 +47,6 @@ ChocHouseProject/
 │   ├── script.js             # JavaScript to interact with the API endpoints
 │
 │
-└── db/                 
-│   ├── chochouse.sql         # SQL Queries
 └── README.md                 # Project documentation and setup instructions
 ```
 
@@ -180,4 +178,11 @@ Additional routes are available for subcategories, customers, allergies, and ing
 
 ---
 
+## Docker Containerisation
+
+- Open the Command Palette and run the Dev Containers: Add Dev Container Configuration Files
+- Select Python 3
+- Select SQLLite as an additional feature to be installed, press OK, and then select Keep Defaults.
+- Open the devcontainer.json file.
+- Make necessary changes
 
