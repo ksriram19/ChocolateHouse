@@ -46,6 +46,9 @@ ChocHouseProject/
 │   ├── style.css             # CSS for frontend styling
 │   ├── script.js             # JavaScript to interact with the API endpoints
 │
+│
+└── db/                 
+│   ├── chochouse.sql         # SQL Queries
 └── README.md                 # Project documentation and setup instructions
 ```
 
