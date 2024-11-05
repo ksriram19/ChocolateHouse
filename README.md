@@ -39,7 +39,6 @@ ChocHouseProject/
 │   ├── main.py               # FastAPI application with routes
 │   ├── database.py           # Database connection setup (MySQL)
 │   ├── models.py             # Optional: ORM models for entities
-│   ├── schemas.py            # Optional: Pydantic schemas for validation
 │   └── requirements.txt      # List of backend dependencies
 │
 ├── frontend/
@@ -47,7 +46,6 @@ ChocHouseProject/
 │   ├── style.css             # CSS for frontend styling
 │   ├── script.js             # JavaScript to interact with the API endpoints
 │
-├── .gitignore                # Git ignore file for untracked files (e.g., .env, __pycache__)
 └── README.md                 # Project documentation and setup instructions
 ```
 
@@ -179,4 +177,4 @@ Additional routes are available for subcategories, customers, allergies, and ing
 
 ---
 
-This should cover everything you need to set up, run, and troubleshoot the project. Let me know if you encounter any additional issues!
+
