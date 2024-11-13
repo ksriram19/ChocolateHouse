@@ -18,7 +18,7 @@ A management system for ChocHouse to handle categories, customers, and other ent
 
 The ChocHouseProject enables CRUD (Create, Read, Update, Delete) operations for various entities in ChocHouse's inventory and customer management. This includes main categories, subcategories, customers, allergies, and ingredients.
 
-The **frontend** provides a user interface for interacting with the backend, which is implemented using **FastAPI** and communicates with a **MySQL** database.
+The **frontend** provides a user interface for interacting with the backend, which is implemented using **FastAPI** and communicates with a **SQLite** database.
 
 ---
 
